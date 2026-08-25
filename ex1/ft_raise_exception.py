@@ -1,5 +1,8 @@
 def input_temperature(temp_str: str) -> int:
-	return int(temp_str)
+	temp = int(temp_str)
+	if temp > 40:
+		raise 
+
 
 def test_temperature() -> None:
 	print("=== Garden Temperature ===")
